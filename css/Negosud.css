@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lien {
+    color: #7A0000;
+}
+
+.lien:hover {
+    color: red;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_negosud {
+    width: 100px;
+    height: 100px;
+}
+
+.barre_recherche {
+    align-self: end;
+}
+
+.logo_loupe {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 680px;
+    top: -34px;
+    cursor: pointer;
+}
+
+.item_compte {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu_deroulant {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px;
+    width: 200px;
+}
+
+.menu_deroulant li {
+    list-style: none;
+    text-decoration: none;
+}
